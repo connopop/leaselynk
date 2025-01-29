@@ -24,9 +24,10 @@ a {
     background-color: #4b71a1;
 }
 
-.navbar .logo img {
-    height: 100px;
+.navbar .logo {
+    image-resolution: 100%;
     width: 200px;
+    height: auto;
 }
 
 .logo {
