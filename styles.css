@@ -239,9 +239,21 @@ a {
 }
 
 .bottom-btn-primary {
-    
+    background-color: white;
+    color: #4b71a1; 
 }
 
 .bottom-btn-secondary {
+    background-color: white;
+    color: #4b71a1;
+}
 
+.bottom-btn-primary:hover {
+    background-color: white;
+    color: #343a40;
+}
+
+.bottom-btn-secondary:hover {
+    background-color: white;
+    color: #343a40;
 }
