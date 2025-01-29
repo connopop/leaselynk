@@ -21,12 +21,12 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background-color: #4b71a1;
+    background-color: #8ea5c2;
 }
 
 .navbar .logo image {
-    width: 200px;
-    height: auto;
+    width: 150px;
+    height: 10px;
 }
 
 .logo {
