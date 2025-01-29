@@ -28,11 +28,6 @@ a {
     width: 100px;
 }
 
-.logo {
-    height: 10px;
-    width: 100px;
-}
-
 .navbar .nav-links {
     list-style: none;
     display: flex;
