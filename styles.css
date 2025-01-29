@@ -30,7 +30,7 @@ a {
 }
 
 .logo {
-    height: 100px;
+    height: 20px;
     width: 200px;
 }
 
@@ -228,9 +228,11 @@ a {
 .footer-links li a {
     color: white;
     font-size: 1rem;
+    text-align: right;
 }
 
 .footer p {
     margin-top: 20px;
     font-size: 0.9rem;
+    text-align: right;
 }
