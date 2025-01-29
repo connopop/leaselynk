@@ -25,13 +25,12 @@ a {
 }
 
 .navbar .logo image {
-    width: 150px;
-    height: 10px;
+    width: 100px;
 }
 
 .logo {
-    height: 20px;
-    width: 200px;
+    height: 10px;
+    width: 100px;
 }
 
 .navbar .nav-links {
