@@ -20,12 +20,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     background-color: #4b71a1;
 }
 
-.navbar .logo {
-    image-resolution: 100%;
+.navbar .logo image {
     width: 200px;
     height: auto;
 }
