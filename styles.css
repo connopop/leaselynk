@@ -51,7 +51,7 @@ a {
 }
 
 .navbar .nav-links a:hover {
-    color: #f7b800;
+    color: #343a40;
 }
 
 /* Hero Section */
@@ -80,12 +80,12 @@ a {
 }
 
 .btn-primary {
-    background-color: #f7b800;
+    background-color: #343a40;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #e0a800;
+    background-color: #343a40;
 }
 
 .btn-secondary {
@@ -96,7 +96,7 @@ a {
 
 .btn-secondary:hover {
     background-color: white;
-    color: #4b71a1;
+    color: #343a40;
 }
 
 /* Features Section */
@@ -163,7 +163,7 @@ a {
 .testimonial {
     font-size: 1.2rem;
     font-style: italic;
-    color: #f7b800;
+    color: #343a40;
 }
 
 /* Pricing Section */
