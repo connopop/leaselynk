@@ -21,7 +21,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #002f6c; /* Royal Blue */
+    background-color: #4b71a1;
 }
 
 .navbar .logo img {
@@ -50,7 +50,7 @@ a {
 
 /* Hero Section */
 .hero {
-    background-color: #002f6c; /* Royal Blue */
+    background-color: #4b71a1;
     color: white;
     text-align: center;
     padding: 80px 20px;
@@ -90,7 +90,7 @@ a {
 
 .btn-secondary:hover {
     background-color: white;
-    color: #002f6c;
+    color: #4b71a1;
 }
 
 /* Features Section */
@@ -145,7 +145,7 @@ a {
 .testimonials {
     padding: 40px 20px;
     text-align: center;
-    background-color: #002f6c; /* Royal Blue */
+    background-color: #4b71a1;
     color: white;
 }
 
