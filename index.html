@@ -1,56 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LeaseLynk - Simplify Your Property Management</title>
+    <title>LeaseLynk - Property Management</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Streamline Your Rental Business with LeaseLynk</h1>
+            <p>A powerful all-in-one platform for landlords and property managers to manage leases, track expenses, and simplify tenant communications.</p>
+            <div class="cta-buttons">
+                <a href="#pricing" class="btn btn-primary">Start Managing Now</a>
+                <a href="#features" class="btn btn-secondary">See How It Works</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Interactive Dashboard Preview -->
+    <section id="features" class="features">
+        <h2>Core Features</h2>
+        <div class="features-grid">
+            <div class="feature-box">
+                <h3>Properties & Tenant Management</h3>
+                <p>Manage your properties and tenants with ease.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Automated Lease Tracking</h3>
+                <p>Stay on top of lease dates, renewals, and important reminders.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Financial Reports</h3>
+                <p>Track expenses, income, and generate reports effortlessly.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Maintenance Requests</h3>
+                <p>Handle tenant requests and coordinate with contractors.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        <p class="testimonial">"LeaseLynk has saved me hours of work! The automated reminders and maintenance tracking are invaluable." - Verified Landlord</p>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing-cards">
+            <div class="card">
+                <h3>Free Trial</h3>
+                <p>$0/month</p>
+                <a href="#" class="btn btn-primary">Start Free Trial</a>
+            </div>
+            <div class="card">
+                <h3>Standard</h3>
+                <p>$10/month</p>
+                <a href="#" class="btn btn-primary">Subscribe</a>
+            </div>
+            <div class="card">
+                <h3>Pro</h3>
+                <p>$30/month</p>
+                <a href="#" class="btn btn-primary">Subscribe</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <ul class="footer-links">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <h1>LeaseLynk - Streamline Your Property Management</h1>
-            <p>Effortlessly manage your properties, tenants, and leases with our intuitive web app.</p>
-            <button>Sign Up for Free</button>
-        </section>
-        <section id="features" class="features">
-            <h2>Key Features</h2>
-            <ul>
-                <li><i class="fas fa-lock"></i> Secure Lease Agreement Storage</li>
-                <li><i class="fas fa-calendar"></i> Automated Rent Reminders</li>
-                <li><i class="fas fa-chart-line"></i> Financial Reporting and Analytics</li>
-            </ul>
+            <p>&copy; 2025 LeaseLynk. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 
-        </section>
-
-        <!-- Pricing Section -->
-           
-              tr 
-                  th Plan /th 
-                  th Monthly /th 
-                  th Yearly /th 
-              tr
-                  td Basic /td 
-                  td $9.99 /td 
-                  td $99.99 /td  
-              tr  
-                   td Premium /td  
-                   td $19.99 /td  
-                   td $199.99 /td   
-
-         <!-- Call to Action Button -->
-         <button>Sign Up for Free Today</button>
-
-       </main>
-     </body>
-
-  </html>
+</html>
