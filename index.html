@@ -1,119 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeaseLynk - Property Management</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
-<body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="img/logo-nobg.png" alt="LeaseLynk Logo" >
-        </div>
-        <ul class="nav-links">
-            <li><a href="#features">Features</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
+<body class="bg-gray-900 text-white">
+    
     <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Streamline Your Rental Business with LeaseLynk</h1>
-            <p>A powerful all-in-one platform for landlords and property managers to manage leases, track expenses, and simplify tenant communications.</p>
-            <div class="cta-buttons">
-                <a href="#pricing" class="btn btn-primary">Start Managing Now</a>
-                <a href="#features" class="btn btn-secondary">See How It Works</a>
-            </div>
+    <header class="text-center py-20 px-6">
+        <h1 class="text-5xl font-bold">Powerful Property Management, Simplified.</h1>
+        <p class="text-lg text-gray-400 mt-4 max-w-2xl mx-auto">
+            LeaseLynk helps landlords and property managers streamline leasing, expenses, and maintenance in one place.
+        </p>
+        <div class="mt-6 flex justify-center gap-4">
+            <button class="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 text-lg rounded-lg">Get Started</button>
+            <button class="border border-gray-500 text-white py-3 px-6 text-lg rounded-lg">Learn More</button>
         </div>
     </header>
-
-    <!-- Interactive Dashboard Preview -->
-    <section id="features" class="features">
-        <h2>Core Features</h2>
-        <div class="features-grid">
-            <div class="feature-box">
-                <div class="feature-image">
-                    <img src="img/feature1.png" alt="Property Management">
-                </div>
-                <h3>Properties & Tenant Management</h3>
-                <p>Manage your properties and tenants with ease.</p>
-            </div>
-            <div class="feature-box">
-                <div class="feature-image">
-                    <img src="img/feature2.png" alt="Lease Tracking">
-                </div>
-                <h3>Automated Lease Tracking</h3>
-                <p>Stay on top of lease dates, renewals, and important reminders.</p>
-            </div>
-            <div class="feature-box">
-                <div class="feature-image">
-                    <img src="img/feature3.png" alt="Financial Reports">
-                </div>
-                <h3>Financial Reports</h3>
-                <p>Track expenses, income, and generate reports effortlessly.</p>
-            </div>
-            <div class="feature-box">
-                <div class="feature-image">
-                    <img src="img/feature4.png" alt="Maintenance Requests">
-                </div>
-                <h3>Maintenance Requests</h3>
-                <p>Handle tenant requests and coordinate with contractors.</p>
-            </div>
+    
+    <!-- Feature Highlights -->
+    <section class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 px-8 py-12 max-w-6xl mx-auto">
+        <div class="bg-gray-800 text-center p-6 rounded-lg">
+            <div class="text-5xl mb-4">📄</div>
+            <h3 class="text-xl font-semibold">Tenant Management</h3>
+            <p class="text-gray-400 mt-2">Track leases & reminders.</p>
+        </div>
+        <div class="bg-gray-800 text-center p-6 rounded-lg">
+            <div class="text-5xl mb-4">📅</div>
+            <h3 class="text-xl font-semibold">Calendar & Viewings</h3>
+            <p class="text-gray-400 mt-2">Never miss an appointment.</p>
+        </div>
+        <div class="bg-gray-800 text-center p-6 rounded-lg">
+            <div class="text-5xl mb-4">💰</div>
+            <h3 class="text-xl font-semibold">Income & Expenses</h3>
+            <p class="text-gray-400 mt-2">Manage financials easily.</p>
+        </div>
+        <div class="bg-gray-800 text-center p-6 rounded-lg">
+            <div class="text-5xl mb-4">🔧</div>
+            <h3 class="text-xl font-semibold">Maintenance Tracking</h3>
+            <p class="text-gray-400 mt-2">Handle requests seamlessly.</p>
         </div>
     </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <h2>What Our Users Say</h2>
-        <p class="testimonial">"LeaseLynk has saved me hours of work! The automated reminders and maintenance tracking are invaluable." - Verified Landlord</p>
-    </section>
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
-        <h2>Choose Your Plan</h2>
-        <div class="pricing-cards">
-            <div class="card">
-                <h3>Free Trial</h3>
-                <p>7-day free trial!</p>
-                <a href="#" class="bottom-btn-primary">Start Free Trial</a>
-            </div>
-            <div class="card">
-                <h3>Standard</h3>
-                <p>£4.99/month</p>
-                <a href="#" class="bottom-btn-secondary">Subscribe</a>
-            </div>
-            <div class="card">
-                <h3>Pro</h3>
-                <p>£9.99/month</p>
-                <p2><ul>Become a <strong> Verified Landlord </strong><br>
-                    Manage<strong> UNLIMITED </strong>Properties <br>
-                    More Report Types <br>
-                </ul></p2>
-                <a href="#" class="bottom-btn-secondary">Subscribe</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="footer-content">
-            <ul class="footer-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#privacy">Privacy</a></li>
-                <li><a href="#terms">Terms</a></li>
-            </ul>
-            <p>&copy; 2025 LeaseLynk. All rights reserved.</p>
-        </div>
+    
+    <!-- Footer -->
+    <footer class="text-center py-6 text-gray-400 text-sm border-t border-gray-700">
+        &copy; <script>document.write(new Date().getFullYear())</script> LeaseLynk. All rights reserved.
     </footer>
+    
 </body>
-
 </html>
